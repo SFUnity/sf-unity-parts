@@ -15,7 +15,7 @@ SF Unity Parts is built on Cheesy Parts, a tool created by Pat Fairbank at [Team
 
 Our fork differs from 254's in a few ways:
 
-1. Users can edit their own account settings, including passwords, names, and one of several stylesheets.
+1. Users can edit their own account settings, including changing passwords, names, and choosing from one of several stylesheets.
 1. Workflow, status options, and other attributes are generally optimized for our team's resources.
 1. Secure file upload is added so that members with edit privileges may upload drawings, documentation, and toolpath files. Each part and assembly carries revision letters that are automatically managed by the program. Lite version control is offered, with the ability to restore previous revisions if user is an administrator.
 1. Slack and Trello integeration is offered, since teams may use both tools for communication and task tracking.
@@ -24,6 +24,7 @@ Our fork differs from 254's in a few ways:
 
 ## Planned Additions
 1. STL upload feature, allowing STL models to be uploaded to the database, so members assigned to 3D print a part can find the status of the part and grab the model of it from the same place, just as they would if they were going to manufacture something on the CNC router
+1. Link to relevant Onshape documents in the descriptions of assemblies
 1. Allow users to include COTS parts in assemblies in the parts manager
 
 ## Deploying using Docker
